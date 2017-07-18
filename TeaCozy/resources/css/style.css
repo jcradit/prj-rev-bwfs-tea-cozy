@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  text-align: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+	border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+}
+
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.header a {
+   color: seashell; 
+}
+
+nav  {
+	margin-left: auto;
+}
+
+nav span {
+  padding-right: 10px;
+  text-decoration: underline;;
+}
+
+#jumbotron {
+  padding-top: 70px;
+  margin: auto;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../../images/img-mission-background.jpg");
+  justify-content: center;
+  display: flex;
+
+}
+
+#jumbotron #jumboText{
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+
+.teaMonth {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.teaRow img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 15px 10px 15px;
+}
+
+.locations {
+  padding-top: 70px;
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../../images/img-locations-background.jpg");
+  margin-top: 20px;
+}
+
+.locRow {
+   align-items: center; 
+   display: flex;
+   margin: auto;
+   justify-content: center;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 40px 0px 40px;
+}
+
+.contact {
+  height: 200px;
+}
+.footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
